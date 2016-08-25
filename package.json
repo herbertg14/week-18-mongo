@@ -1,0 +1,27 @@
+{
+  "name": "week-18-mongo",
+  "version": "1.0.0",
+  "description": "Week 18 hw with Mongo, Mongoose, and Cheerio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/herbertg14/week-18-mongo.git"
+  },
+  "author": "Herbert Gutierrez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/herbertg14/week-18-mongo/issues"
+  },
+  "homepage": "https://github.com/herbertg14/week-18-mongo#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "cheerio": "^0.22.0",
+    "express": "^4.14.0",
+    "express-handlebars": "^3.0.0",
+    "mongoose": "^4.5.10",
+    "request": "^2.74.0"
+  }
+}

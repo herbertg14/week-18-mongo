@@ -1,0 +1,21 @@
+body{
+  background-color: #F2F6D0
+}
+#articles{
+  height:700px;
+  display:inline-block;
+  overflow: auto;
+}
+textarea, input{
+  display:block;
+  width:100%;
+  background-color: #FCF5C7;
+}
+input{
+  height:36px;
+  font-size: 24px;
+}
+textarea{
+  height:200px;
+  font-size: 18px;
+}

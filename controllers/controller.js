@@ -8,7 +8,8 @@ var mongoose = require('mongoose');
 var request = require('request'); 
 var cheerio = require('cheerio');
 
-mongoose.connect('mongodb://localhost/week18test');
+// mongoose.connect('mongodb://localhost/week18test');
+mongoose.connect('mongodb://heroku_q4qjncjd:1th6fsi6oqi175dd0g8rkmktqr@ds017726.mlab.com:17726/heroku_q4qjncjd');
 var db = mongoose.connection;
 
 

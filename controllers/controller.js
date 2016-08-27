@@ -97,6 +97,9 @@ router.get('/articles', function(req, res){
 		} 
 		// or send the doc to the browser as a json object
 		else {
+			// var hbsObject = {article: doc[0]};
+			// console.log(hbsObject);
+			// res.render('index', hbsObject);
 			res.json(doc);
 		}
 	});
